@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - ChocoFruit Delights</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">ChocoFruit Delights</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="process.html">Our Process</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Hero -->
+    <section class="gallery-hero" style="background-image: url('../assets/images/Gallery Section Background.jpg');">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="display-4 text-white">Our Gallery</h1>
+                    <p class="lead text-white">Feast your eyes on our delectable creations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons text-center mb-5">
+                <button class="btn btn-outline-primary active" data-filter="all">All Collections</button>
+                <button class="btn btn-outline-primary" data-filter="bestseller">Bestsellers</button>
+                <button class="btn btn-outline-primary" data-filter="seasonal">Seasonal</button>
+                <button class="btn btn-outline-primary" data-filter="gift">Gift Sets</button>
+                <button class="btn btn-outline-primary" data-filter="custom">Custom Orders</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Gallery Item 1 -->
+                <div class="col-md-4 gallery-item bestseller">
+                    <a href="../assets/images/Classic Chocolate.jpg" data-lightbox="gallery" data-title="Classic Chocolate Watermelon - Our signature chocolate-dipped watermelon slices">
+                        <div class="gallery-image">
+                            <img src="../assets/images/Classic Chocolate.jpg" alt="Classic Chocolate Watermelon" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <h3>Classic Chocolate</h3>
+                                <p>Our signature bestseller</p>
+                                <span class="badge bg-primary">Bestseller</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Gallery Item 2 -->
+                <div class="col-md-4 gallery-item seasonal">
+                    <a href="../assets/images/Fruit Mix Delight.jpg" data-lightbox="gallery" data-title="Fruit Mix Delight - A perfect blend of seasonal fruits">
+                        <div class="gallery-image">
+                            <img src="../assets/images/Fruit Mix Delight.jpg" alt="Fruit Mix Delight" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <h3>Fruit Mix Delight</h3>
+                                <p>Seasonal fruit selection</p>
+                                <span class="badge bg-success">New</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Gallery Item 3 -->
+                <div class="col-md-4 gallery-item gift">
+                    <a href="../assets/images/About page.jpg" data-lightbox="gallery" data-title="Luxury Gift Box - Perfect for special occasions">
+                        <div class="gallery-image">
+                            <img src="../assets/images/About page.jpg" alt="Luxury Gift Box" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <h3>Luxury Gift Box</h3>
+                                <p>Premium gift collection</p>
+                                <span class="badge bg-info">Gift Set</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Gallery Item 4 -->
+                <div class="col-md-4 gallery-item custom">
+                    <a href="../assets/images/Process Section Background.jpg" data-lightbox="gallery" data-title="Custom Order - Personalized chocolate arrangements">
+                        <div class="gallery-image">
+                            <img src="../assets/images/Process Section Background.jpg" alt="Custom Order" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <h3>Custom Order</h3>
+                                <p>Tailored to your preferences</p>
+                                <span class="badge bg-warning">Custom</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Gallery Item 5 -->
+                <div class="col-md-4 gallery-item bestseller seasonal">
+                    <a href="../assets/images/Gallery Section Background.jpg" data-lightbox="gallery" data-title="Summer Special - Refreshing chocolate-dipped watermelon">
+                        <div class="gallery-image">
+                            <img src="../assets/images/Gallery Section Background.jpg" alt="Summer Special" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <h3>Summer Special</h3>
+                                <p>Limited time offering</p>
+                                <span class="badge bg-danger">Hot</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Gallery Item 6 -->
+                <div class="col-md-4 gallery-item gift custom">
+                    <a href="../assets/images/Artisanal Process.jpg" data-lightbox="gallery" data-title="Corporate Gift Set - Perfect for business events">
+                        <div class="gallery-image">
+                            <img src="../assets/images/Artisanal Process.jpg" alt="Corporate Gift Set" class="img-fluid">
+                            <div class="gallery-overlay">
+                                <h3>Corporate Gift Set</h3>
+                                <p>Bulk orders welcome</p>
+                                <span class="badge bg-secondary">Corporate</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>ChocoFruit Delights</h3>
+                    <p>Redefining dessert experiences with chocolate-dipped fruits</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact</h3>
+                    <p>Email: info@chocofruit.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

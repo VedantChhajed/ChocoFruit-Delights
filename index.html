@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoFruit Delights - Luxurious Chocolate-Dipped Fruits</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="home">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">ChocoFruit Delights</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/process.html">Our Process</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Video Background -->
+    <section class="hero reveal">
+        <div class="video-container">
+            <video autoplay loop muted playsinline>
+                <source src="assets/images/71744-539969563_small.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div>
+            <div class="hero-content">
+                <h1 class="main-title">ChocoFruit Delights</h1>
+                <p class="lead">Experience the perfect blend of chocolate and fresh fruits</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary btn-lg">Explore Our Treats</a>
+                    <a href="#process" class="btn btn-outline-light btn-lg">See How It's Made</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="products-section reveal">
+        <div class="container">
+            <h2 class="section-title">Our Signature Creations</h2>
+            <div class="row g-4">
+                <div class="col-md-6 reveal">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/images/Classic Chocolate.jpg" alt="Classic Chocolate Watermelon" class="img-fluid">
+                        </div>
+                        <div class="product-info">
+                            <h3>Classic Chocolate</h3>
+                            <p>Our signature chocolate-dipped watermelon slices</p>
+                            <a href="pages/products.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 reveal">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/images/Fruit Mix Delight.jpg" alt="Fruit Mix Delight" class="img-fluid">
+                        </div>
+                        <div class="product-info">
+                            <h3>Fruit Mix Delight</h3>
+                            <p>An assortment of chocolate-covered fruits</p>
+                            <a href="pages/products.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section with Video -->
+    <section id="process" class="process-section reveal" style="background-image: url('assets/images/Process Section Background.jpg');">
+        <div class="container">
+            <h2 class="section-title">Our Artisanal Process</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 reveal">
+                    <div class="process-image">
+                        <img src="assets/images/Artisanal Process.jpg" alt="Our Artisanal Process" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <div class="col-lg-6 reveal">
+                    <div class="process-steps">
+                        <div class="step">
+                            <span class="step-number">01</span>
+                            <h3>Selection</h3>
+                            <p>We carefully select the freshest, sweetest watermelons</p>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">02</span>
+                            <h3>Preparation</h3>
+                            <p>Each slice is cut to perfection</p>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">03</span>
+                            <h3>Creation</h3>
+                            <p>Premium chocolate is expertly applied</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section reveal">
+        <div class="container">
+            <h2 class="section-title">Our Gallery</h2>
+            <div class="filter-buttons mb-4">
+                <button class="btn btn-outline-primary active" data-filter="all">All</button>
+                <button class="btn btn-outline-primary" data-filter="chocolate">Chocolate</button>
+                <button class="btn btn-outline-primary" data-filter="fruit">Fruit</button>
+                <button class="btn btn-outline-primary" data-filter="special">Special</button>
+            </div>
+            <div id="gallery-grid">
+                <div class="gallery-item reveal chocolate">
+                    <img src="assets/images/Classic Chocolate.jpg" alt="Classic Chocolate">
+                    <div class="gallery-overlay">
+                        <h3>Classic Chocolate</h3>
+                        <p>Our signature chocolate-dipped watermelon</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal fruit">
+                    <img src="assets/images/Fruit Mix Delight.jpg" alt="Fruit Mix Delight">
+                    <div class="gallery-overlay">
+                        <h3>Fruit Mix Delight</h3>
+                        <p>Assorted chocolate-covered fruits</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal special">
+                    <img src="assets/images/Artisanal Process.jpg" alt="Gift Box">
+                    <div class="gallery-overlay">
+                        <h3>Gift Box</h3>
+                        <p>Perfect for special occasions</p>
+                    </div>
+                </div>
+                <div class="gallery-item reveal special">
+                    <img src="assets/images/About page.jpg" alt="Seasonal Special">
+                    <div class="gallery-overlay">
+                        <h3>Seasonal Special</h3>
+                        <p>Limited time offerings</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="pages/gallery.html" class="btn btn-primary btn-lg">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section reveal">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 reveal">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="cta-button primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>ChocoFruit Delights</h3>
+                    <p class="footer-text">Experience the perfect blend of premium chocolate and fresh fruits. Our artisanal creations are made with love and care to bring you unforgettable moments of joy.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Chocolate Avenue, Sweet City</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@chocofruit.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ChocoFruit Delights. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and other scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "chocofruit-delights",
+  "version": "1.0.0",
+  "description": "A professional landing page for ChocoFruit Delights - Premium chocolate-dipped fruits",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chocolate",
+    "fruits",
+    "dessert",
+    "landing-page",
+    "food",
+    "portfolio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "font-awesome": "^6.0.0"
+  }
+}
