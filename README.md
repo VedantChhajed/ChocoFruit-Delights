@@ -66,6 +66,5 @@ The site is fully static and can be deployed on:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-ChocoFruit Delights - info@chocofruit.com
-
-Project Link: [Your GitHub Repo URL]
+Project Link: https://github.com/VedantChhajed/ChocoFruit-Delights
+Twitter: https://x.com/Ved_CJ
