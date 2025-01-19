@@ -67,4 +67,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 Project Link: https://github.com/VedantChhajed/ChocoFruit-Delights
+
 Twitter: https://x.com/Ved_CJ
